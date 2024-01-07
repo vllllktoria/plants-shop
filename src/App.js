@@ -8,11 +8,11 @@ import {Cart} from "./pages/Cart/Cart";
 import {Profile} from "./pages/Profile/Profile";
 import {NotFound} from "./pages/NotFound/NotFound";
 
-import {MainWrapper} from "./pages/MainPage/MainPage.styles";
+import {Wrapper} from "./pages/MainPage/MainPage.styles";
 
 function App() {
   return (
-      <MainWrapper>
+      <Wrapper>
           <BrowserRouter>
               <Navbar />
               <Routes>
@@ -24,7 +24,7 @@ function App() {
                   <Route path="/profile" element={<Profile />} />
               </Routes>
           </BrowserRouter>
-      </MainWrapper>
+      </Wrapper>
   );
 }
 

@@ -9,6 +9,7 @@ import {Profile} from "./pages/Profile/Profile";
 import {NotFound} from "./pages/NotFound/NotFound";
 
 import {Wrapper} from "./pages/MainPage/MainPage.styles";
+import {Footer} from "./shared/components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                   <Route path="/cart" element={<Cart />} />
                   <Route path="/profile" element={<Profile />} />
               </Routes>
+              <Footer />
           </BrowserRouter>
       </Wrapper>
   );

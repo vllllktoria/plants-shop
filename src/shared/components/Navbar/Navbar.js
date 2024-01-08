@@ -1,11 +1,10 @@
 import React from 'react';
 
-import {CartIcon} from "../icons/CartIcon";
-import {PersonIcon} from "../icons/PersonIcon";
-import {FilterIcon} from "../icons/FilterIcon";
+import {CartIcon} from "../icons/NavbarIcons/CartIcon";
+import {PersonIcon} from "../icons/NavbarIcons/PersonIcon";
+import {FilterIcon} from "../icons/NavbarIcons/FilterIcon";
 
 import * as Styles from "./Navbar.styles";
-
 
 export const Navbar = () => {
     return (

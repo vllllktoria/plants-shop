@@ -3,7 +3,7 @@ import React from 'react';
 export const Contacts = () => {
     return (
         <div>
-            <a>seqdsd</a>
+            <a>Страница в разработке</a>
         </div>
     );
 };

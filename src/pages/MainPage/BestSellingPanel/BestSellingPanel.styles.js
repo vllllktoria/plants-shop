@@ -1,9 +1,10 @@
 import styled from "styled-components";
+
 import {Color} from "../../../shared/constants/Color";
 
 export const BestSellingWrapper = styled.div`
   display: flex;
-  padding: 48px;
+  padding: 97px 48px;
 `;
 
 export const BestSellingInfo = styled.div`

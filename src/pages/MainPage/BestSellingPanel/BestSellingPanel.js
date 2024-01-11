@@ -25,7 +25,7 @@ export const BestSellingPanel = () => {
                     <ArrowRightButton/>
                 </Styles.BestSellingButton>
             </Styles.BestSellingInfo>
-            <BestsellersList/>
+            <BestsellersList />
         </Styles.BestSellingWrapper>
     );
 };

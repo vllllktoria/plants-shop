@@ -6,7 +6,10 @@ export const ProductCard = ({ productName, productImage, productPrice }) => {
 
     return (
         <Styles.ProductCardWrapper>
-            <Styles.ProductImage src={productImage} alt={productName} />
+            <Styles.ProductImage
+                src={productImage}
+                alt={productName}
+            />
             <Styles.ProductCardInfo>
                 <Styles.ProductTitle>{productName}</Styles.ProductTitle>
                 <Styles.ProductPrice>{productPrice}</Styles.ProductPrice>

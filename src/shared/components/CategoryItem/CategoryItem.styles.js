@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 import {Color} from "../../constants/Color";
 
-export const ProductCardWrapper = styled.div`
+export const CategoryItemWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
   padding: 10px;
+  width: 350px;
+  height: 550px;
   cursor: pointer;
   &:hover {
     box-shadow: 0 0 10px 4px rgba(243, 243, 243, 0.35),
@@ -17,27 +20,16 @@ export const ProductCardWrapper = styled.div`
   }
 `;
 
-export const ProductImage = styled.img`
-  width: 299px;
-  height: 363px;
+export const CategoryItemImage = styled.img`
+  width: 352px;
+  height: 512px;
+  border-radius: 12px;
 `;
 
-export const ProductCardInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-`;
-
-export const ProductTitle = styled.span`
+export const CategoryItemName = styled.span`
   color: ${Color.black};
   font-size: 18px;
-  font-weight: 500;
-  line-height: normal;
-`;
-
-export const ProductPrice = styled.span`
-  color: ${Color.gray};
-  font-size: 18px;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 700;
   line-height: normal;
 `;
